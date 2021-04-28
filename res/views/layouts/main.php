@@ -45,8 +45,8 @@ function head(){
                       </li>
                     </ul>
                     <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Buscar en publicaciones" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit"> <i class="bi bi-search"></i></button>
+                      <input class="form-control me-2" type="search" id="buscar-palabra" placeholder="Buscar en publicaciones" aria-label="Search">
+                      <button class="btn btn-outline-success" type="button" onclick="app.buscarPalabra()"> <i class="bi bi-search"></i></button>
                     </form>
                   </div>
                 </div>
